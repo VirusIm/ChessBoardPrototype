@@ -1,0 +1,106 @@
+.MyTable {
+    border-collapse: collapse;
+}
+
+.MyTable th,
+.MyTable td {
+    width: 30px;
+    height: 30px;
+}
+
+.MyTable th {}
+
+.MyTable td {
+
+    /*color="#ffce9e"*/
+    background-color: #d18b47;
+}
+
+.MyTable tr:nth-child(2n) td:nth-child(2n) {
+    background-color: #ffce9e;
+}
+
+.MyTable tr:nth-child(2n+1) td:nth-child(2n+1) {
+    background-color: #ffce9e;
+}
+
+.borderR {
+    border-right: 1px solid gray;
+}
+
+.borderB {
+    border-bottom: 1px solid gray;
+}
+
+.figure {
+    background-image: url(chess.png);
+    background-size: 185px;
+}
+    /* Black__Figure */
+.blackTower {
+    background-position: 0px -5px;
+}
+
+.blackHorse {
+    background-position: -124px -5px;
+}
+
+.blackHourseL {
+    background-position: -124px -5px;
+    transform: scale(-1, 1);
+}
+
+.blackQueen {
+    background-position: -31px -5px;
+
+}
+
+.blackKing {
+    background-position: 123px -5px;
+
+}
+
+.blackCrown {
+    background-position: 92px -6px;
+}
+.blackPawn {
+    background-position: 215px -5px;    
+}
+
+/* White__Figure */
+.whitePawn {
+     background-position: 215px 40px;
+}
+
+.whiteTower {
+    background-position: 0px 39px;
+}
+
+.whiteHourseL {
+    background-position: 61px 39px;
+    transform: scale(-1, 1);
+}
+
+.whiteHourse {
+    background-position: 61px 39px;
+}
+
+.whiteQueen {
+    background-position: 154px 39px;
+}
+
+.whiteKing {
+    background-position: 122px 39px;
+}
+
+.whiteCrown {
+    background-position: 92px 39px;
+}
+
+
+
+
+
+
+
+
